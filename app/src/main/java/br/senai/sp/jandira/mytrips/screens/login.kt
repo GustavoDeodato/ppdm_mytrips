@@ -16,6 +16,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
@@ -76,7 +77,7 @@ fun Login() {
                     color = Color.Gray,
 
                     )
-                TextField(
+                OutlinedTextField(
                     value = "teste@gmail.com",
                     onValueChange = {},
                     modifier = Modifier
@@ -96,8 +97,7 @@ fun Login() {
                     ),
                             contentDescription = "") }
                 )
-//              leadingIcon
-                TextField(
+                OutlinedTextField(
                     value = "************",
                     onValueChange = {},
                     modifier = Modifier
